@@ -2,7 +2,7 @@
 
 # Installing Python
 
-Please follow installation instructions from this tutorial: [https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444). Download version 3 of Python (not version 2). It is easiest to select 'Add Anaconda to my PATH environment variable' in step 2 (this will allow you to run Python from any folder on your computer).
+Please follow installation instructions from this tutorial: [https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444](https://medium.com/@GalarnykMichael/install-python-on-windows-anaconda-c63c7c3d1444). Download version 3 of Python (not version 2) at [https://www.anaconda.com/distribution/](https://www.anaconda.com/distribution/). Make sure to select the right operating system ('Windows' or 'macOS').
  
 The 'Anaconda' version of Python contains everything you need to run Python code, and it also contains ‘Jupyter notebook’. This allows you to organize/run Python code on your computer through a web page. 
 
