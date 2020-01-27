@@ -21,19 +21,21 @@ for x in range(10):
 
 ### Assignment
 
-Two people will play rounds of ['Rocks, paper, scissors'](https://en.wikipedia.org/wiki/Rock%E2%80%93paper%E2%80%93scissors). They each start with $100 in funds. Each round they will bet $10 (winner gets $20, loser nothing, in case of tie they start a new round). 
+Your instructor is attacking you from 'Western United States' with 16 troops. You are defending 'Eastern United States' with only 7 troops.
 
-The strategy of each player is to randomly select 'rocks', 'paper' or 'scissors' independently (each round random). They will stop playing when one of the players runs out of money, or when they have played 20 games.
+Write a python program that will play out this attack. For the game rules, see [assignment_5_risk_rules.pdf](assignment_5_risk_rules.pdf), in particular, pages 9-11 show 'Combat' and 'How to battle'.
 
-Create a settings file that holds this information so that it can be changed without changing the code:
+Record each attack round in a dictionary. Keep track of the dice that were rolled (your instructor will roll 3 dice as long as he can attack with 3 or more troops), you can roll two dice (as long you have at least 2 troops to defend with). 
 
-```
-player1Funds=100
-player2Funds=100
-bet=10
-maxRounds=20
-```
+Each round, also record the number of troops at the start of the round for each player, and the troops lost for each player in that round (and the troops that are left). 
 
-Your code should read the settings file and use it to determine the starting funds, amount that is used each round for betting and the maximum numbers of rounds played.
+Collect each of the dictonaries in a list (in other words, you will have a list that holds dictonaries, one dictonary for each round). The length of the list will show how many rounds were played.
 
-Also, create a list of dictionaries to keep track of each game (use a list to record the details in a dictionary). How many games do they play? Print the details (dictionary) of the first 3 games. Details should include the round number, the beginning balance $ of each player, their 'hand' (rocks, paper or scissors), and who won that round.
+The game will stop when your instructor conquers Eastern United States. He will also stop attacking if the number of his troops falls below your troops.
+
+After recording the game in the list of dictonaries, answer the following questions:
+
+- How many rounds were played
+- Who is in charge of Eastern United States?
+- How many troops were lost on average each round by the instructor?
+- As above: for  yourself
