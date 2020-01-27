@@ -7,6 +7,7 @@ This assignment uses lists and dictionaries.
 Make sure you have reviewed the following topics before starting to work on this assignment. 
 
 Lists: [https://www.py4e.com/lessons/lists](https://www.py4e.com/lessons/lists)
+
 Dictionaries: [https://www.py4e.com/lessons/dictionary](https://www.py4e.com/lessons/dictionary)
 
 ## Random numbers
