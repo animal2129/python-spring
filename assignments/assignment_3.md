@@ -60,4 +60,25 @@ Also, write the lines that contain 'Prince' to another file (prince.txt). Adapt 
 with open('prince.txt', 'a') as the_file:
     the_file.write('Hello dear Prince\n')
 ```
+### Detecing uppercase letter
 
+Suppose you have a variable `line`, and you want to see if each word in that line starts with an uppercase letter or not, you can use the following code (as a starting point)
+
+```python
+line = "My Prince cries a lot"
+words = line.split(" ")
+for word in words:
+    print(word, 'is uppercase?', word[0].isupper() )
+```
+
+which outputs:
+
+```
+My is uppercase? True
+Prince is uppercase? True
+cries is uppercase? False
+a is uppercase? False
+lot is uppercase? False
+```
+
+In other words, you can see if the first letter (`word[0]`) is uppercase or not.
